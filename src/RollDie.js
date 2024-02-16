@@ -39,7 +39,7 @@ class RollDie extends Component {
       <div className="RollDie">
         <div className="RollDie-container">
           {valArr.map((val) => {
-            return <Dice face={val} />;
+            return <Dice face={val} isRolling={isRolling} />;
           })}
         </div>
         <button

@@ -4,9 +4,10 @@ import "./Dice.css";
 class Dice extends Component {
   static defaultProps = {
     face: 1,
+    isRolling: false,
   };
   render() {
-    const { face } = this.props;
+    const { face, isRolling } = this.props;
     const numToText = {
       1: "one",
       2: "two",
@@ -20,7 +21,7 @@ class Dice extends Component {
         <i
           className={`Dice-icon fa-solid fa-dice-${
             numToText[`${face}`]
-          } fa-2xl`}
+          } fa-2xl ${isRolling && "Dice-rolling"}`}
         ></i>
       </div>
     );
