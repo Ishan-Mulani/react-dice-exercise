@@ -3,7 +3,7 @@ import "./Dice.css";
 
 class Dice extends Component {
   static defaultProps = {
-    face: "1",
+    face: 1,
   };
   render() {
     const { face } = this.props;

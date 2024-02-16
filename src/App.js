@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <RollDie />
+        <RollDie numOfDice={2} />
       </div>
     );
   }

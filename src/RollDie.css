@@ -1,0 +1,25 @@
+.RollDie {
+  margin-top: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.RollDie-button {
+  font-size: 1em;
+  color: slateblue;
+  background-color: white;
+  border: 1px solid slateblue;
+  padding: 1rem 2rem;
+  margin-top: 5rem;
+  border-radius: 0.5rem;
+}
+.RollDie-container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.RollDie-rollingButton {
+  color: whitesmoke;
+  background-color: darkblue;
+}
